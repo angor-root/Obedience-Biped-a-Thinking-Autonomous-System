@@ -1,0 +1,20 @@
+# Obedience dependency requirements
+
+# Core simulation
+mujoco>=3.4
+numpy>=2.3
+pinocchio>=3.8
+
+# Input handling
+pynput>=1.7
+
+# ROS 2 (install via rosdep)
+# ros-humble-rclpy
+# ros-humble-std-msgs
+# ros-humble-geometry-msgs
+# ros-humble-nav-msgs
+
+# Development
+pytest>=7.0
+black>=23.0
+mypy>=1.0

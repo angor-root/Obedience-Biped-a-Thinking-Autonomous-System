@@ -1,0 +1,43 @@
+# Obedience Robot Configuration
+
+robot:
+  name: "obedience"
+  model: "biped_3d_feet"
+
+walking:
+  # Capture point controller gains
+  k_xi: -1.0
+  k_pz: 5.0
+  k_pt: -8.0
+  
+  # Walking parameters
+  step_period: 0.4
+  min_step_time: 0.2
+  step_height: 0.2
+  target_height: 1.45
+  
+  # Lateral rocking
+  rocking_amplitude: 0.1
+
+battery:
+  # Battery thresholds (percentage)
+  low_threshold: 20
+  critical_threshold: 10
+  
+  # Anomaly detection
+  discharge_rate_threshold: 0.5  # %/min abnormal
+  
+mission:
+  # Default delivery interval (seconds)
+  delivery_interval: 3600
+  
+  # Charging station location
+  charging_station:
+    x: 0.0
+    y: 0.0
+    z: 0.0
+
+navigation:
+  # Path planning parameters
+  max_velocity: 0.6
+  safety_margin: 0.5

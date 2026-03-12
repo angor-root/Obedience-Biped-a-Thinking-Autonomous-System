@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# MuJoCo
+MUJOCO_LOG.TXT
+*.usdc
+*.usd
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ROS 2
+install/
+log/
+build/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
