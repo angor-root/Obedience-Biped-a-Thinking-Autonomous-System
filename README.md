@@ -149,8 +149,8 @@ If you use this project in your research, please cite:
 ```bibtex
 @software{obedience2026,
   title={Obedience: A Bipedal Robot for Autonomous Medicine Delivery},
-  author={Your Name},
+  author={Caleb Churata},
   year={2026},
-  url={https://github.com/YOUR_USERNAME/obedience}
+  url={https://github.com/angor-root/Obedience-Biped-a-Thinking-Autonomous-System}
 }
 ```
